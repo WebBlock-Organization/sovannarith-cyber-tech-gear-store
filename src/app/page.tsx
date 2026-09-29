@@ -15,7 +15,7 @@ interface ProductItem {
   };
 }
 
-const INITIAL_PRODUCTS: ProductItem[] = [{"id":"29f33eb1-50dd-4f3f-a7bc-785dd62f65c9","tenantId":"e955a4e4-e7b1-452d-b165-971c7b6dfd92","title":"Aura Pro Spatial Headset","price":289,"status":"ACTIVE","customFields":{"badge":"Flagship","features":[],"imageUrl":"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80","description":"Zero-latency lossless wireless audio with 45-hour battery and active adaptive spatial acoustics.","category":"Audio","stock":50},"createdAt":null},{"id":"fe877a20-dc07-4291-85ca-47fbcc3987b0","tenantId":"e955a4e4-e7b1-452d-b165-971c7b6dfd92","title":"Chronos Titanium Smartwatch","price":199.5,"status":"ACTIVE","customFields":{"badge":"Best Seller","features":[],"imageUrl":"https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80","description":"Aerospace titanium casing with AMOLED sapphire display and 14-day continuous biometrics monitoring.","category":"Wearables","stock":40},"createdAt":null},{"id":"1d1a1c25-f752-4c0a-8b1b-bd4a60ab8fc0","tenantId":"e955a4e4-e7b1-452d-b165-971c7b6dfd92","title":"Nova Halo Magnetic Desk Lamp","price":89,"status":"ACTIVE","customFields":{"badge":"New Release","features":[],"imageUrl":"https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80","description":"Circadian rhythm smart lighting with integrated 15W MagSafe wireless rapid charger base.","category":"Desk Setup","stock":90},"createdAt":null}];
+const INITIAL_PRODUCTS: ProductItem[] = [];
 
 export default function SingleFileTenantStore() {
   const [products, setProducts] = useState<ProductItem[]>(INITIAL_PRODUCTS);
